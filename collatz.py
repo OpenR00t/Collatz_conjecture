@@ -15,6 +15,7 @@ while True:
     timeCode = now.strftime("%Y-%m-%d %H:%M:%S")
     num = start
     #log.write("{0}: testing {1}\n".format(timeCode, start))
+        #logs were far too large to work with
     print("{0}: testing {1}".format(timeCode, start))
     calculating = True
     count = 0
